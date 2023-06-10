@@ -15,25 +15,25 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\..\xGps_Manager\GPSx\GPSx\Common_Store.h">
-      <Filter>Üst Bilgi Dosyaları</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\xGps_Manager\GPSx\GPSx\GPS_Modul_master.h">
-      <Filter>Üst Bilgi Dosyaları</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\xGps_Manager\GPSx\GPSx\Polygon_Maping.h">
-      <Filter>Üst Bilgi Dosyaları</Filter>
-    </ClInclude>
+    <ClCompile Include="GPS_Modul_master.cpp">
+      <Filter>Kaynak Dosyalar</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Kaynak Dosyalar</Filter>
+    </ClCompile>
+    <ClCompile Include="Polygon_Maping.cpp">
+      <Filter>Kaynak Dosyalar</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\..\xGps_Manager\GPSx\GPSx\GPS_Modul_master.cpp">
-      <Filter>Kaynak Dosyalar</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\xGps_Manager\GPSx\GPSx\main.cpp">
-      <Filter>Kaynak Dosyalar</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\xGps_Manager\GPSx\GPSx\Polygon_Maping.cpp">
-      <Filter>Kaynak Dosyalar</Filter>
-    </ClCompile>
+    <ClInclude Include="GPS_Modul_master.h">
+      <Filter>Üst Bilgi Dosyaları</Filter>
+    </ClInclude>
+    <ClInclude Include="Polygon_Maping.h">
+      <Filter>Üst Bilgi Dosyaları</Filter>
+    </ClInclude>
+    <ClInclude Include="Common_Store.h">
+      <Filter>Üst Bilgi Dosyaları</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

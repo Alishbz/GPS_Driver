@@ -18,6 +18,16 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="GPS_Modul_master.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Polygon_Maping.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Common_Store.h" />
+    <ClInclude Include="GPS_Modul_master.h" />
+    <ClInclude Include="Polygon_Maping.h" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
@@ -126,16 +136,6 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
   </ItemDefinitionGroup>
-  <ItemGroup>
-    <ClInclude Include="..\..\..\xGps_Manager\GPSx\GPSx\Common_Store.h" />
-    <ClInclude Include="..\..\..\xGps_Manager\GPSx\GPSx\GPS_Modul_master.h" />
-    <ClInclude Include="..\..\..\xGps_Manager\GPSx\GPSx\Polygon_Maping.h" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="..\..\..\xGps_Manager\GPSx\GPSx\GPS_Modul_master.cpp" />
-    <ClCompile Include="..\..\..\xGps_Manager\GPSx\GPSx\main.cpp" />
-    <ClCompile Include="..\..\..\xGps_Manager\GPSx\GPSx\Polygon_Maping.cpp" />
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
